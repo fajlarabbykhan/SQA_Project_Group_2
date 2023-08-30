@@ -11,5 +11,29 @@ Follow the prompts to set up your project. Add WebDriver JAR to Your Project . C
 Add the location of the ChromeDriver executable to your system's PATH environment variable or specify its path in your test code.
 Remember that (**browser drivers should match the version of the browser**) you're using.
   
+## Test Suite Composition
+- Launch chrome browser and navigate to webpage.
+- Capture title of the webpage, capture the url of the webpage, capture page source.
+- Login to the webpage using standard user.
+- Login to the webpage using Locked out user.
+- Login to the webpage using problem user.
+- Login to the webpage using performance-glitch user.
+- Login and switch to current page using X path.
+- Switch to current page and add 2 product in the cart using X path.
+- List of webElements in a page [Like-anchor tag a].
+- Sort products (Handling of Dropdown) by visible text.
+- Sort products by value.
+- Sort products by index
+- Sort products by multiple options[Like-(A to Z)+Low Price].
+- Find broken links/dead links on products page.
+- See product details by clicking on Image links.
+- Product details by clicking on Image links and add to cart.
+- Scroll down the web page by Pixel.
+- Scroll down the web page by visibility of the element.
+- Scroll down the web page at the bottom of the page.
+- Remove one item from cart
+- Checkout a product
+- Readable report using testNG.(For run this you need to create Maven project and configure the project)
+
 
 
